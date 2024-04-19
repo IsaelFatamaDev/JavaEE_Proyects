@@ -1,8 +1,35 @@
 
-“
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(œÈõ‹úÿÿÿÿ8ëÅñ³ï1J$8d2c8cd3-6e21-493e-8f5e-9ddfe38765f4
-i	java:S131""Add a default case to this switch.(œÈõ‹úÿÿÿÿ8ŒÆñ³ï1J$acd6a499-74b8-4819-a8b1-a1009051fc3a
+
+java:S1192@"FDefine a constant instead of duplicating this literal "UTF-8" 5 times.(ˆö„®şÿÿÿÿ8æ‚ıµï1J$af127cca-524b-4fa5-80de-d7f4a32ee6c6
+”
+java:S1192"LDefine a constant instead of duplicating this literal "/ContGetAll" 4 times.(¢ş¾İüÿÿÿÿ8æ‚ıµï1J$e87e8ca3-d4ae-4aa0-8a1d-dc15017b37ff
+–
+java:S1192="SDefine a constant instead of duplicating this literal " no fue encontrado" 4 times.(º€š 8æ‚ıµï1J$346410df-0a28-4c9d-8b43-e9066d348c16
+œ
+java:S1192@"TDefine a constant instead of duplicating this literal "/index.jsp?mensaje=" 5 times.(ˆö„®şÿÿÿÿ8æ‚ıµï1J$6ab91c5e-bc99-4c12-85fb-2c1e3aab38c5
+—
+java:S1192="TDefine a constant instead of duplicating this literal "El contacto con ID " 4 times.(º€š 8æ‚ıµï1J$15dbf2e5-538e-4ca8-ba0e-562f8ef73e3a
+‹
+java:S1192>"HDefine a constant instead of duplicating this literal "mensaje" 5 times.(÷Ñ½8æ‚ıµï1J$33786a5b-dad4-4026-a867-c28ba3e18a5a
+i	java:S131""Add a default case to this switch.(œÈõ‹úÿÿÿÿ8„ƒıµï1J$e72821f9-ba88-43cd-9ac7-ced049024e66
 £
-java:S1989"`Handle the following exceptions that could be thrown by "getAll": ServletException, IOException.(éÄÕ¼8Æñ³ï1J$53a47872-de09-4496-89b7-77c20deb1e25
+java:S1989"`Handle the following exceptions that could be thrown by "getAll": ServletException, IOException.(éÄÕ¼8…ƒıµï1J$f8734c37-25e2-4592-80a0-eb71213b33d1
 ¤
-java:S1989"aHandle the following exceptions that could be thrown by "getById": ServletException, IOException.(¡çëİ8Æñ³ï1J$e9163d46-97ee-4736-b96b-a307294b2657
+java:S1989"aHandle the following exceptions that could be thrown by "getById": ServletException, IOException.(¡çëİ8…ƒıµï1J$d0af8a22-67b2-4b32-aed2-2f3c5f40b2a7
+”
+java:S1989"QHandle the following exception that could be thrown by "contCreate": IOException.(÷œ©Š8…ƒıµï1J$42a5e260-2935-481a-8479-622a8dbd7e1f
+”
+java:S1989"QHandle the following exception that could be thrown by "contUpdate": IOException.(·–•Â8…ƒıµï1J$b842460c-509d-43f2-9cda-fbed5e84c283
+”
+java:S1989!"QHandle the following exception that could be thrown by "contDelete": IOException.(¯¨Ò‰8†ƒıµï1J$e08b915d-1968-4eb6-b704-07bc82b8163a
+ª
+java:S1989$"bHandle the following exceptions that could be thrown by "contEdit": ServletException, IOException.(ª™ª¢ùÿÿÿÿ8Ûæµ¶ï1J$cbca1ecd-8853-4767-97d3-37f766ac591a
+i	java:S131G""Add a default case to this switch.(œÈõ‹úÿÿÿÿ8‹ƒıµï1J$6af24ef1-bdda-45eb-a4c4-9b2d59008f7e
+”
+java:S1989I"QHandle the following exception that could be thrown by "contCreate": IOException.(÷œ©Š8‹ƒıµï1J$04f0274f-9694-459b-b16f-b504d672ce13
+”
+java:S1989L"QHandle the following exception that could be thrown by "contUpdate": IOException.(·–•Â8‹ƒıµï1J$b998a705-dd72-42ca-8e2f-6000ab7e4237
+”
+java:S1989O"QHandle the following exception that could be thrown by "contDelete": IOException.(¯¨Ò‰8Œƒıµï1J$f0edade6-08ee-405d-a183-eed75e8d27a6
+ª
+java:S1989R"bHandle the following exceptions that could be thrown by "contEdit": ServletException, IOException.(ª™ª¢ùÿÿÿÿ8˜»¶ï1J$da4b4b9b-cbcd-445d-bdb3-f0d1e218c43c

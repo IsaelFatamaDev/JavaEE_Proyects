@@ -35,3 +35,11 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392,1\8\188792529ee886cbdc6616248007f7a96c73e03d
+X
+(src/main/webapp/confirmarEliminacion.jsp,8\e\8e7a5fe1f9b9b562427161c26fd7a3d9186475db
+Z
+*src/main/webapp/WEB-INF/editarContacto.jsp,e\4\e403d49ada13a6b9d11f914a07cf0ce7968681b2
+R
+"src/main/webapp/editarContacto.jsp,b\9\b9a178017e80a7aedb650c0a0a8b86ce0fbc03bd
+Q
+!src/main/webapp/crearContacto.jsp,f\5\f54f81880e79c98704f70e42f089ac953cd8eb24

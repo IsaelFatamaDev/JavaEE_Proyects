@@ -31,4 +31,29 @@ public class ContactoService {
         }
         return rpta;
     }
+    public ContactoDTO create(ContactoDTO bean){
+        bean.setId(++DB.contador);
+        DB.contactos.add(bean);
+        return bean;
+    }
+
+    public ContactoDTO update(ContactoDTO bean) {
+        for (int i = 0; i < DB.contactos.size(); i++) {
+            if (DB.contactos.get(i).getId() == bean.getId()) {
+                DB.contactos.set(i, bean);
+                return bean;
+            }
+        }
+        return null;
+    }
+
+    public boolean delete(int id) {
+        for (ContactoDTO contacto : DB.contactos) {
+            if (contacto.getId() == id) {
+                DB.contactos.remove(contacto);
+                return true;
+            }
+        }
+        return false;
+    }
 }

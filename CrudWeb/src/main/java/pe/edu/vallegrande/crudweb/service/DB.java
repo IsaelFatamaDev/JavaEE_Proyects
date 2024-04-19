@@ -11,6 +11,7 @@ public class DB {
     }
 
     static List<ContactoDTO> contactos;
+    static int contador;
 
     static {
         contactos = new ArrayList<>();
@@ -21,5 +22,6 @@ public class DB {
         contactos.add(new ContactoDTO(5, "Gustavo Coronel", "gustavo@gmail.com", "984576876", 1));
         contactos.add(new ContactoDTO(6, "Deyton Garcia", "deyton.garcia@vallegrande.edu.pe", "945328101", 1));
         contactos.add(new ContactoDTO(7, "Jean Palomino", "jean.palomino@vallegrande.edu.pe", "959096705", 1));
+contador = 7;
     }
 }
