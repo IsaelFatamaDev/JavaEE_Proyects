@@ -17,3 +17,21 @@ h
 8src/main/java/pe/edu/vallegrande/crudweb/service/DB.java,1\6\160e11a8e992ddb259afae71dfd14b1725613796
 u
 Esrc/main/java/pe/edu/vallegrande/crudweb/service/ContactoService.java,7\4\7478220f4888228956d1b03f7d59dbc145ddd3bf
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+S
+#src/main/webapp/detalleContacto.jsp,5\8\586f2b73898633305f05143c8625fb193bb5923d
+I
+src/main/webapp/error.jsp,c\b\cba3df22242d379bdb72d00919d2e8d49101d1bf
+Å
+Q.idea/sonarlint/securityhotspotstore/c/b/cba3df22242d379bdb72d00919d2e8d49101d1bf,f\1\f11c56f50aa99e7c54e2c32db99cf8d2aee42537
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+Å
+Q.idea/sonarlint/securityhotspotstore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392,5\7\57f21a9649435d4c0bebbf63045d868ce2bc78c1
+Å
+Q.idea/sonarlint/securityhotspotstore/5/8/586f2b73898633305f05143c8625fb193bb5923d,0\1\017dbcdcf73701858ac4cc43b0f07f2b429d66e6
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+w
+G.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392,1\8\188792529ee886cbdc6616248007f7a96c73e03d

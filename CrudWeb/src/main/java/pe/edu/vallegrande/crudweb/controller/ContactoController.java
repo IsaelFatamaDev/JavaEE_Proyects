@@ -8,6 +8,7 @@ import pe.edu.vallegrande.crudweb.dto.ContactoDTO;
 import pe.edu.vallegrande.crudweb.service.ContactoService;
 
 import java.io.IOException;
+import java.net.URLEncoder;
 import java.util.List;
 @WebServlet({"/ContGetAll", "/ContGetId"})
 public class ContactoController extends HttpServlet {
@@ -18,9 +19,9 @@ public class ContactoController extends HttpServlet {
             case "/ContGetAll":
                 getAll(req, resp);
                 break;
-//            case "/ContGetId":
-//                getById(req, resp);
-//                break;
+            case "/ContGetId":
+                getById(req, resp);
+                break;
         }
     }
 
@@ -32,4 +33,24 @@ public class ContactoController extends HttpServlet {
         RequestDispatcher rd = req.getRequestDispatcher("contacto.jsp");
         rd.forward(req, resp);
     }
+
+    private void getById(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int id = Integer.parseInt(req.getParameter("id"));
+
+        ContactoService service = new ContactoService();
+        ContactoDTO contacto = service.getById(id);
+
+        if (contacto != null) {
+            req.setAttribute("contacto", contacto);
+            RequestDispatcher rd = req.getRequestDispatcher("detalleContacto.jsp");
+            rd.forward(req, resp);
+        } else {
+            String mensaje = "El contacto con ID " + id + " no fue encontrado";
+            req.setAttribute("mensaje", mensaje);
+
+            resp.sendRedirect(req.getContextPath() + "/index.jsp?mensaje=" + URLEncoder.encode(mensaje, "UTF-8"));
+        }
+    }
+
+
 }
