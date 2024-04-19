@@ -157,6 +157,8 @@ public class ContactoController extends HttpServlet {
         boolean eliminado = service.delete(id);
 
         if (eliminado) {
+            String mensaje = "Contacto eliminado correctamente";
+            req.setAttribute("mensaje", mensaje);
             resp.sendRedirect(req.getContextPath() + "/ContGetAll");
         } else {
             String mensaje = "El contacto con ID " + id + " no fue encontrado";
@@ -164,4 +166,5 @@ public class ContactoController extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/index.jsp?mensaje=" + URLEncoder.encode(mensaje, "UTF-8"));
         }
     }
+
 }

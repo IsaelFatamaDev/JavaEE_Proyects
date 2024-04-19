@@ -34,10 +34,11 @@
                             <td>${usuario.estado}</td>
                             <td class="text-center">
                                 <a href="ContEditar?id=${usuario.id}" class="btn btn-primary">Actualizar</a>
-                                <form action="ContBorrar" method="post" style="display: inline;">
+                                <form action="ContBorrar" method="post" style="display: inline;" onsubmit="mostrarAlerta()">
                                     <input type="hidden" name="id" value="${usuario.id}">
                                     <button type="submit" class="btn btn-danger">Eliminar</button>
                                 </form>
+
                             </td>
                         </tr>
                     </c:forEach>
@@ -52,5 +53,11 @@
     </div>
 </div>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    function mostrarAlerta() {
+        alert("¡Dato eliminado!");
+    }
+</script>
+
 </body>
 </html>
