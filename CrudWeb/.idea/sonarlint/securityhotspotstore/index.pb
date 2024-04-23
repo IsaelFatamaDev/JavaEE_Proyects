@@ -21,10 +21,6 @@ O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 S
 #src/main/webapp/detalleContacto.jsp,5\8\586f2b73898633305f05143c8625fb193bb5923d
-I
-src/main/webapp/error.jsp,c\b\cba3df22242d379bdb72d00919d2e8d49101d1bf
-Å
-Q.idea/sonarlint/securityhotspotstore/c/b/cba3df22242d379bdb72d00919d2e8d49101d1bf,f\1\f11c56f50aa99e7c54e2c32db99cf8d2aee42537
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Å
@@ -35,11 +31,11 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392,1\8\188792529ee886cbdc6616248007f7a96c73e03d
-X
-(src/main/webapp/confirmarEliminacion.jsp,8\e\8e7a5fe1f9b9b562427161c26fd7a3d9186475db
-Z
-*src/main/webapp/WEB-INF/editarContacto.jsp,e\4\e403d49ada13a6b9d11f914a07cf0ce7968681b2
 R
 "src/main/webapp/editarContacto.jsp,b\9\b9a178017e80a7aedb650c0a0a8b86ce0fbc03bd
 Q
 !src/main/webapp/crearContacto.jsp,f\5\f54f81880e79c98704f70e42f089ac953cd8eb24
+v
+Fsrc/main/java/pe/edu/vallegrande/crudweb/connection/SqlConnection.java,c\6\c6f6c9bc4ca6528f74e63703fca22d4f55def524
+s
+Csrc/main/java/pe/edu/vallegrande/crudweb/test/PruebaConnection.java,0\b\0b52489767ba2f0f9a96687550b8390c37a3ca5b
