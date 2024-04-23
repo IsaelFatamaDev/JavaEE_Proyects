@@ -83,15 +83,23 @@ public class ContactoController extends HttpServlet {
             nuevoContacto.setTelefono(telefono);
 
             ContactoService service = new ContactoService();
-            service.create(nuevoContacto);
+            int nuevoContactoId = service.create(nuevoContacto);
 
-            resp.sendRedirect(req.getContextPath() + "/ContGetAll");
+            if (nuevoContactoId != 0) {
+                String redirectURL = req.getContextPath() + "/ContGetId?id=" + nuevoContactoId;
+                resp.sendRedirect(redirectURL);
+            } else {
+                String mensaje = "Error al crear el nuevo contacto";
+                req.setAttribute("mensaje", mensaje);
+                resp.sendRedirect(req.getContextPath() + "/index.jsp?mensaje=" + URLEncoder.encode(mensaje, "UTF-8"));
+            }
         } else {
             String mensaje = "Todos los campos son obligatorios";
             req.setAttribute("mensaje", mensaje);
             resp.sendRedirect(req.getContextPath() + "/index.jsp?mensaje=" + URLEncoder.encode(mensaje, "UTF-8"));
         }
     }
+
 
     private void contEdit(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));

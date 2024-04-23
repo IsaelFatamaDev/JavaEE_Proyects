@@ -32,6 +32,7 @@
                 </tbody>
             </table>
             <a href="index.jsp" class="btn btn-primary">Regresar al Inicio</a>
+            <a href="ContGetAll" class="btn btn-success">Ir a Lista de Contacto</a>
         </c:when>
         <c:otherwise>
             <p class="alert alert-warning">El contacto no fue encontrado.</p>

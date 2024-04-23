@@ -3,10 +3,7 @@ package pe.edu.vallegrande.crudweb.service;
 import pe.edu.vallegrande.crudweb.connection.SqlConnection;
 import pe.edu.vallegrande.crudweb.dto.ContactoDTO;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,30 +78,38 @@ public class ContactoService {
         return bean;
     }
 
-    public ContactoDTO create(ContactoDTO bean) {
+    public int create(ContactoDTO bean) {
         Connection cn = null;
         PreparedStatement pstm = null;
+        ResultSet rs = null;
         String sql;
+        int nuevoContactoId = 0;
 
         try {
             cn = SqlConnection.getConnection();
             sql = "INSERT INTO contacto (nombre, correo, telefono) VALUES (?, ?, ?)";
-            pstm = cn.prepareStatement(sql);
+            pstm = cn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             pstm.setString(1, bean.getNombre());
             pstm.setString(2, bean.getCorreo());
             pstm.setString(3, bean.getTelefono());
             pstm.executeUpdate();
+
+            rs = pstm.getGeneratedKeys();
+            if (rs.next()) {
+                nuevoContactoId = rs.getInt(1);
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             try {
+                if (rs != null) rs.close();
                 if (pstm != null) pstm.close();
                 if (cn != null) cn.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
-        return bean;
+        return nuevoContactoId;
     }
 
 
