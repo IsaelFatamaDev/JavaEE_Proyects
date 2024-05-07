@@ -151,7 +151,7 @@ public class ContactoService {
 
         try {
             cn = SqlConnection.getConnection();
-            sql = "DELETE FROM contacto WHERE id = ?";
+            sql = "UPDATE contacto SET estado = 0 WHERE id = ?";
             pstm = cn.prepareStatement(sql);
             pstm.setInt(1, id);
             int rowsAffected = pstm.executeUpdate();
