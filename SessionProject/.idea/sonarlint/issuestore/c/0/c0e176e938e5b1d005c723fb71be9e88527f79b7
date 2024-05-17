@@ -1,0 +1,30 @@
+
+i
+java:S1192@"MDefine a constant instead of duplicating this literal "/carrito.jsp" 3 times.(ãÕ²8¶Ï¹ø1
+Œ
+java:S11926"IDefine a constant instead of duplicating this literal "usuarios" 3 times.(‘ƒÅ»8ÉàË¹ø1J$3f9125fb-4ae8-4a5e-aaae-9c4c8d86d17f
+‘
+java:S1192,"IDefine a constant instead of duplicating this literal "ciudades" 7 times.(Ş’™ºûÿÿÿÿ8ÉàË¹ø1J$d50d63fa-1a52-40ee-a41b-1de2be8e330a
+Á
+java:S1130&"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(©Èğ…ùÿÿÿÿ8æàË¹ø1J$362db1a9-38b1-4a5a-97a2-995c504a588d
+m	java:S106*"+Replace this use of System.out by a logger.(İˆû”8èàË¹ø1J$2068d500-70b2-427c-8815-bea4b96a559e
+m	java:S106+"+Replace this use of System.out by a logger.(ÎËØ˜8éàË¹ø1J$b10b208a-5d48-4887-a0f1-ec7000d56fed
+r	java:S1061"+Replace this use of System.out by a logger.(ä·úåıÿÿÿÿ8ëàË¹ø1J$230385be-5800-4a31-86cd-a307ec7331c0
+r	java:S1062"+Replace this use of System.out by a logger.(¨÷¡“üÿÿÿÿ8ëàË¹ø1J$7e127c05-c710-447b-b23a-084e9f5d499e
+r	java:S106="+Replace this use of System.out by a logger.(æıîÿÿÿÿÿ8íàË¹ø1J$0d382305-8307-433e-b80b-c3b2637b1c66
+ƒ	java:S125A"<This block of commented-out lines of code should be removed.(Ş¯ØØşÿÿÿÿ8ïàË¹ø1J$b981aa58-406b-4cd7-be23-e738d11ed24a
+Á
+java:S1130E"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(¡ µ“üÿÿÿÿ8ã¿Î¹ø1J$24bea6e1-f359-4b6c-a356-20e14dd74a17
+r	java:S106K"+Replace this use of System.out by a logger.(÷ĞçÙûÿÿÿÿ8ğàË¹ø1J$84c3e12b-3645-43ff-bf53-abe85e2deb3e
+m	java:S106L"+Replace this use of System.out by a logger.(„‚Š8ñàË¹ø1J$f8733d18-f41a-4e2e-a4eb-c3a008fc030d
+ƒ	java:S125N"<This block of commented-out lines of code should be removed.(Ş¯ØØşÿÿÿÿ8è¿Î¹ø1J$d5c2454b-85ba-4eb0-b5e0-3b13c0915946
+r	java:S106V"+Replace this use of System.out by a logger.(ãğÁÆøÿÿÿÿ8÷àË¹ø1J$597d011a-6eae-43af-b237-8cc34fd298a5
+m	java:S106Y"+Replace this use of System.out by a logger.(£²Ç™8øàË¹ø1J$86c370cc-ae49-4cd6-b080-4218e1d2c976
+m	java:S106\"+Replace this use of System.out by a logger.(‰Ø˜®8ì¿Î¹ø1J$c624c23d-98ba-4cdf-a385-7f44b28303bd
+r	java:S106^"+Replace this use of System.out by a logger.(•é£üÿÿÿÿ8ì¿Î¹ø1J$d27b404a-f26c-43d1-9148-3245cb1870e2
+ƒ	java:S125`"<This block of commented-out lines of code should be removed.(Ş¯ØØşÿÿÿÿ8í¿Î¹ø1J$0b46b63a-00e9-4c7c-a462-4d2e293d1891
+›
+java:S1130d"yRemove the declaration of thrown exception 'jakarta.servlet.ServletException', as it cannot be thrown from method's body.(¯Ï£ëşÿÿÿÿ8¹¶Ï¹ø1
+m	java:S106j"+Replace this use of System.out by a logger.(§¦æ8ğ¿Î¹ø1J$2f454de0-5031-4fad-b222-89c0630ad47c
+m	java:S106k"+Replace this use of System.out by a logger.(â»¯½8ğ¿Î¹ø1J$51fd533a-4d01-4617-b1d3-2b5f01fe2959
+]	java:S125o"<This block of commented-out lines of code should be removed.(Ş¯ØØşÿÿÿÿ8½¶Ï¹ø1
