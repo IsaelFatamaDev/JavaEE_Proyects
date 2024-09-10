@@ -3,12 +3,12 @@
 
 <html>
 <head>
-    <title>Detalles del Contacto</title>
+    <title>Detalles de la Ruta</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
-    <h1>Detalles del Contacto</h1>
+    <h1>Detalles de la Ruta</h1>
     <c:choose>
         <c:when test="${not empty contacto}">
             <table class="table table-bordered">

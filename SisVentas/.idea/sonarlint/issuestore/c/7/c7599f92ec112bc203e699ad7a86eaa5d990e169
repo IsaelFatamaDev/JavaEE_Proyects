@@ -1,0 +1,14 @@
+
+ƒ
+java:S2259&"@A "NullPointerException" could be thrown; "cn" is nullable here.(ıª´È8¤Á¡¿€2J$4af02f73-cc06-4999-84f3-1d4a68527aad
+ƒ
+java:S2259+"@A "NullPointerException" could be thrown; "cn" is nullable here.(ıª´È8¤Á¡¿€2J$cd422da2-bde8-4a6a-bb60-16b7935f5489
+	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åıÿÿÿÿ8¦Á¡¿€2J$f4bd4dcc-0769-4c3d-8481-5a5f68cce223
+	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Åßû’úÿÿÿÿ8¦Á¡¿€2J$e9e758d0-78df-4005-ac34-4d2bdea1d084
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¯õ¢‹üÿÿÿÿ8§Á¡¿€2J$598201b4-9624-41fc-8806-dad11c6c52a2
+o
+java:S1172",Remove this unused method parameter "items".(õ¹üÛ8¯Á¡¿€2J$6c8310d2-7e9d-4718-8afb-a0589623cc34
+p	java:S108'")Either remove or fill this block of code.(–œÿĞúÿÿÿÿ8¼Á¡¿€2J$64d93ab2-49be-45e6-88fd-56024a86383f
+p	java:S108,")Either remove or fill this block of code.(–œÿĞúÿÿÿÿ8ÀÁ¡¿€2J$b0202852-309b-417f-becd-1644ab2dc950
+p	java:S1083")Either remove or fill this block of code.(¬Àáªøÿÿÿÿ8ÄÁ¡¿€2J$459ffa8e-c3de-4770-b140-d009eff4b8eb

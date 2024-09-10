@@ -41,7 +41,7 @@ public class SessionController extends HttpServlet {
         String nombre = request.getParameter("nombre");
         HttpSession session = request.getSession();
         session.setAttribute("nombre", nombre);
-        // Dispacher
+        // Dispatcher
         RequestDispatcher rd = request.getRequestDispatcher("carrito.jsp");
         rd.forward(request, response);
     }
