@@ -36,4 +36,6 @@ public class OfficeController extends HttpServlet {
         req.setAttribute("lista", officeList);
         req.getRequestDispatcher("locales.jsp").forward(req, resp);
     }
+
+
 }

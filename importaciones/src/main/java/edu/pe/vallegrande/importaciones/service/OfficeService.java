@@ -70,4 +70,47 @@ public class OfficeService {
             e.printStackTrace();
         }
     }
+
+    public void deleteOffice(int office_id) {
+        Connection cn = null;
+        PreparedStatement ps = null;
+        try {
+            cn = AccesoDB.getConnection();
+            String sql = "DELETE FROM office WHERE office_id = ?;";
+            ps = cn.prepareStatement(sql);
+            ps.setInt(1, office_id);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+    }
+
+    // metodo de editar
+    public OfficeDto getOfficeById(int office_id) {
+        OfficeDto driver = new OfficeDto();
+        Connection cn = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            cn = AccesoDB.getConnection();
+            String sql = "SELECT * FROM office WHERE office_id = ?;";
+            ps = cn.prepareStatement(sql);
+            ps.setInt(1, office_id);
+            rs = ps.executeQuery();
+            while (rs.next()) {
+                driver.setOffice_id(rs.getInt("office_id"));
+                driver.setOffice_name(rs.getString("office_name"));
+                driver.setAddress(rs.getString("address"));
+                driver.setCity(rs.getString("city"));
+                driver.setPhone(rs.getString("phone"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return driver;
+    }
+
+
+
 }
